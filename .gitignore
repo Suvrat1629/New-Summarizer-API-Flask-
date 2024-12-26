@@ -1,0 +1,45 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Logs and debug output
+*.log
+*.out
+
+# Cache and other files
+*.cache
+*.pyc
+.cache/
+*.egg-info/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Flask-related files
+instance/
+config.py
+settings.py
+
+# Dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg
