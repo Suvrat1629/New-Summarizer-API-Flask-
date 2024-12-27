@@ -66,31 +66,11 @@ Summarizes the content of a given URL.
 #### Response:
 ```json
 {
-  "summary": "Summarized content here..."
+  "summary": {
+         "summary:"Summarized content here..."
+   }
 }
 ```
-
-## Deployment
-
-To deploy the application, follow these steps:
-
-1. Install `gunicorn` for production WSGI server:
-
-   ```bash
-   pip install gunicorn
-   ```
-
-2. Run the server using `gunicorn`:
-
-   ```bash
-   gunicorn -w 4 -b 0.0.0.0:5000 app:app
-   ```
-
-3. Configure your preferred cloud hosting provider, such as AWS, Heroku, or Render.
-
-## Contributing
-
-If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
 ## License
 
